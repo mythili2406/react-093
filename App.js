@@ -101,22 +101,35 @@
 //   }
 // }
 // !props children
-import React from 'react'
-// import { PropChildEx } from './propsex/PropChildEx'
-// import {SubChild} from './propsex/SubChild'
-import Child1 from './propsex/Child1'
-export const App = () => {
-  return (
-    <div>
-      {/* <PropChildEx num={100}>
-        <h1>Children</h1>
-        <p>Paragraph</p> */}
-      {/* </PropChildEx> */}
+// import React from 'react'
+// // import { PropChildEx } from './propsex/PropChildEx'
+// // import {SubChild} from './propsex/SubChild'
+// import Child1 from './propsex/Child1'
+// export const App = () => {
+//   return (
+//     <div>
+//       {/* <PropChildEx num={100}>
+//         <h1>Children</h1>
+//         <p>Paragraph</p> */}
+//       {/* </PropChildEx> */}
       
-      {/* <SubChild>hi</SubChild> */}
+//       {/* <SubChild>hi</SubChild> */}
    
         
-      <Child1/>
+//       <Child1/>
+//     </div>
+//   )
+// }
+// export default App
+import React from 'react'
+// import CBCStateEx from './stateexample/CBCStateEx'
+import FBCStateEx from './stateexample/FBCStateEx'
+
+const App = () => {
+  return (
+    <div>
+    <FBCStateEx/>
+    {/* <CBCStateEx */}
     </div>
   )
 }

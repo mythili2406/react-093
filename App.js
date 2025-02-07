@@ -122,14 +122,18 @@
 // }
 // export default App
 import React from 'react'
+import FunctionalComponent from './components/FunctionalComponent'
 // import CBCStateEx from './stateexample/CBCStateEx'
-import FBCStateEx from './stateexample/FBCStateEx'
-
+// import FBCStateEx from './stateexample/FBCStateEx'
+import  myStyles from './components/myStyle.module.css'
 const App = () => {
   return (
-    <div>
-    <FBCStateEx/>
+    <div className='App'>
+      <h2 style={myStyles}>styling</h2>
+    <FunctionalComponent clgname="mru" city="hyd" apply={true}> {/* //add false to not apply css to func componnet here for h1*/}
     {/* <CBCStateEx */}
+    <h1>hello</h1>
+    </FunctionalComponent>
     </div>
   )
 }
